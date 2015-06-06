@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2F6B0B41B233A4400C188E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F6B0B31B233A4400C188E5 /* UIKit.framework */; };
+		B2F6B0B61B233A4400C188E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F6B0B51B233A4400C188E5 /* Foundation.framework */; };
+		B2F6B0B81B233A4400C188E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F6B0B71B233A4400C188E5 /* CoreGraphics.framework */; };
+		B2F6B0BE1B233A4400C188E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2F6B0BC1B233A4400C188E5 /* InfoPlist.strings */; };
+		B2F6B0C01B233A4400C188E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F6B0BF1B233A4400C188E5 /* main.m */; };
+		B2F6B0C41B233A4400C188E5 /* sparseFileAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F6B0C31B233A4400C188E5 /* sparseFileAppDelegate.m */; };
+		B2F6B0C61B233A4400C188E5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F6B0C51B233A4400C188E5 /* Default.png */; };
+		B2F6B0C81B233A4400C188E5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F6B0C71B233A4400C188E5 /* Default@2x.png */; };
+		B2F6B0CA1B233A4400C188E5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F6B0C91B233A4400C188E5 /* Default-568h@2x.png */; };
+		B2F6B0CD1B233A4400C188E5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F6B0CB1B233A4400C188E5 /* MainStoryboard_iPhone.storyboard */; };
+		B2F6B0D01B233A4400C188E5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F6B0CE1B233A4400C188E5 /* MainStoryboard_iPad.storyboard */; };
+		B2F6B0D31B233A4400C188E5 /* sparseFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F6B0D21B233A4400C188E5 /* sparseFileViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B2F6B0B01B233A4400C188E5 /* SparseFileCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparseFileCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F6B0B31B233A4400C188E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2F6B0B51B233A4400C188E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2F6B0B71B233A4400C188E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2F6B0BB1B233A4400C188E5 /* SparseFileCreator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SparseFileCreator-Info.plist"; sourceTree = "<group>"; };
+		B2F6B0BD1B233A4400C188E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2F6B0BF1B233A4400C188E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2F6B0C11B233A4400C188E5 /* SparseFileCreator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SparseFileCreator-Prefix.pch"; sourceTree = "<group>"; };
+		B2F6B0C21B233A4400C188E5 /* sparseFileAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sparseFileAppDelegate.h; sourceTree = "<group>"; };
+		B2F6B0C31B233A4400C188E5 /* sparseFileAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sparseFileAppDelegate.m; sourceTree = "<group>"; };
+		B2F6B0C51B233A4400C188E5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B2F6B0C71B233A4400C188E5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B2F6B0C91B233A4400C188E5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B2F6B0CC1B233A4400C188E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B2F6B0CF1B233A4400C188E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B2F6B0D11B233A4400C188E5 /* sparseFileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sparseFileViewController.h; sourceTree = "<group>"; };
+		B2F6B0D21B233A4400C188E5 /* sparseFileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sparseFileViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2F6B0AD1B233A4400C188E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F6B0B41B233A4400C188E5 /* UIKit.framework in Frameworks */,
+				B2F6B0B61B233A4400C188E5 /* Foundation.framework in Frameworks */,
+				B2F6B0B81B233A4400C188E5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2F6B0A71B233A4400C188E5 = {
+			isa = PBXGroup;
+			children = (
+				B2F6B0B91B233A4400C188E5 /* SparseFileCreator */,
+				B2F6B0B21B233A4400C188E5 /* Frameworks */,
+				B2F6B0B11B233A4400C188E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2F6B0B11B233A4400C188E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2F6B0B01B233A4400C188E5 /* SparseFileCreator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2F6B0B21B233A4400C188E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2F6B0B31B233A4400C188E5 /* UIKit.framework */,
+				B2F6B0B51B233A4400C188E5 /* Foundation.framework */,
+				B2F6B0B71B233A4400C188E5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2F6B0B91B233A4400C188E5 /* SparseFileCreator */ = {
+			isa = PBXGroup;
+			children = (
+				B2F6B0C21B233A4400C188E5 /* sparseFileAppDelegate.h */,
+				B2F6B0C31B233A4400C188E5 /* sparseFileAppDelegate.m */,
+				B2F6B0CB1B233A4400C188E5 /* MainStoryboard_iPhone.storyboard */,
+				B2F6B0CE1B233A4400C188E5 /* MainStoryboard_iPad.storyboard */,
+				B2F6B0D11B233A4400C188E5 /* sparseFileViewController.h */,
+				B2F6B0D21B233A4400C188E5 /* sparseFileViewController.m */,
+				B2F6B0BA1B233A4400C188E5 /* Supporting Files */,
+			);
+			path = SparseFileCreator;
+			sourceTree = "<group>";
+		};
+		B2F6B0BA1B233A4400C188E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2F6B0BB1B233A4400C188E5 /* SparseFileCreator-Info.plist */,
+				B2F6B0BC1B233A4400C188E5 /* InfoPlist.strings */,
+				B2F6B0BF1B233A4400C188E5 /* main.m */,
+				B2F6B0C11B233A4400C188E5 /* SparseFileCreator-Prefix.pch */,
+				B2F6B0C51B233A4400C188E5 /* Default.png */,
+				B2F6B0C71B233A4400C188E5 /* Default@2x.png */,
+				B2F6B0C91B233A4400C188E5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2F6B0AF1B233A4400C188E5 /* SparseFileCreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F6B0D61B233A4400C188E5 /* Build configuration list for PBXNativeTarget "SparseFileCreator" */;
+			buildPhases = (
+				B2F6B0AC1B233A4400C188E5 /* Sources */,
+				B2F6B0AD1B233A4400C188E5 /* Frameworks */,
+				B2F6B0AE1B233A4400C188E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SparseFileCreator;
+			productName = SparseFileCreator;
+			productReference = B2F6B0B01B233A4400C188E5 /* SparseFileCreator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2F6B0A81B233A4400C188E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = sparseFile;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Randy Pargman";
+			};
+			buildConfigurationList = B2F6B0AB1B233A4400C188E5 /* Build configuration list for PBXProject "SparseFileCreator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2F6B0A71B233A4400C188E5;
+			productRefGroup = B2F6B0B11B233A4400C188E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2F6B0AF1B233A4400C188E5 /* SparseFileCreator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2F6B0AE1B233A4400C188E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F6B0BE1B233A4400C188E5 /* InfoPlist.strings in Resources */,
+				B2F6B0C61B233A4400C188E5 /* Default.png in Resources */,
+				B2F6B0C81B233A4400C188E5 /* Default@2x.png in Resources */,
+				B2F6B0CA1B233A4400C188E5 /* Default-568h@2x.png in Resources */,
+				B2F6B0CD1B233A4400C188E5 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B2F6B0D01B233A4400C188E5 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2F6B0AC1B233A4400C188E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F6B0C01B233A4400C188E5 /* main.m in Sources */,
+				B2F6B0C41B233A4400C188E5 /* sparseFileAppDelegate.m in Sources */,
+				B2F6B0D31B233A4400C188E5 /* sparseFileViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2F6B0BC1B233A4400C188E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2F6B0BD1B233A4400C188E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2F6B0CB1B233A4400C188E5 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2F6B0CC1B233A4400C188E5 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B2F6B0CE1B233A4400C188E5 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2F6B0CF1B233A4400C188E5 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2F6B0D41B233A4400C188E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2F6B0D51B233A4400C188E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2F6B0D71B233A4400C188E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SparseFileCreator/SparseFileCreator-Prefix.pch";
+				INFOPLIST_FILE = "SparseFileCreator/SparseFileCreator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2F6B0D81B233A4400C188E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SparseFileCreator/SparseFileCreator-Prefix.pch";
+				INFOPLIST_FILE = "SparseFileCreator/SparseFileCreator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2F6B0AB1B233A4400C188E5 /* Build configuration list for PBXProject "SparseFileCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F6B0D41B233A4400C188E5 /* Debug */,
+				B2F6B0D51B233A4400C188E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2F6B0D61B233A4400C188E5 /* Build configuration list for PBXNativeTarget "SparseFileCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F6B0D71B233A4400C188E5 /* Debug */,
+				B2F6B0D81B233A4400C188E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2F6B0A81B233A4400C188E5 /* Project object */;
+}
